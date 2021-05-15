@@ -8,11 +8,14 @@
     "react-scripts": "4.0.3"
   },
   "devDependencies": {
+    "cogo-toast": "^4.2.3",
     "eslint-config-prettier": "^6.15.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
+    "react-icons": "^4.2.0",
+    "react-loader-spinner": "^4.0.0",
     "typescript": "^4.2.4"
   },
   "scripts": {
@@ -20,7 +23,6 @@
     "build": "react-scripts build",
     "lint": "eslint .",
     "prepare": "husky install"
-
   },
   "eslintConfig": {
     "extends": [

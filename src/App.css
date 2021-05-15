@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+ :root {
+  --red: rgb(188, 23 ,11);
+  --white: #ffffff;
+}

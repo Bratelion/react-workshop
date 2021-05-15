@@ -1,0 +1,49 @@
+.main {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.main > * {
+    width: max-content;
+    margin: 0 auto;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.3em;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 2em;
+}
+
+.logo {
+    height: 5em;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:370px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .main > * {
+        margin: 0 auto;
+        display: inline;
+    }
+    .main {
+        margin-top: 1em;
+    }
+    .text_primary {
+        padding: 0;
+    }
+}
